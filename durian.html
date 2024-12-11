@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="gambar/design.png">
+    <title>Durian Lolong</title>
+    <link rel="stylesheet" type="text/css" href="capret.css">
+    <link rel="stylesheet" type="text/css" href="boss-utama.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap1.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <style>
+        .atas { /* Class untuk mengatur tata letak elemen, jarak elemen, dan warna latar belakang */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #17a2b8;
+        }
+        .atas .navbar-brand img { /* Class untuk menentukan tinggi gambar logo */
+            height: 50px;
+        }
+        .nav-item img { /* Class untuk menentukan tinggi gambar dan jarak di sebelah kanan gambar */
+            height: 25px;
+            margin-right: 10px;
+        }
+        .nav .nav-item { /* Class untuk menghilangkan bullet, membuat daftar tampil sejajar, dan memberikan jarak setiap item daftar */
+            list-style: none;
+            display: inline;
+            margin-left: 15px;
+        }
+        .nav .nav-link { /* Class untuk memberikan warna teks dan menghilangkan garis bawah pada tautan  */
+            color: white;
+            text-decoration: none;
+        }
+        .nav .nav-link:hover { /* Menambahkan garis bawah pada tautan ketika di-hover atau kursor diarahkan */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Class sebagai header utama -->
+    <div class="atas">
+        <!-- Link yang mengarahkan ke menu index -->
+        <a href="index.html" class="navbar-brand">
+            <img src="gambar/art.png" alt="Brand Logo">
+        </a>
+        <!-- Menu navigasi utama pada header -->
+        <ul class="nav">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="kuliner.html" class="nav-link">Kuliner Khas</a></li>
+            <li class="nav-item"><a href="help.html" class="nav-link">Tentang</a></li>
+        </ul>
+        <!-- Menu navigasi yang berisikan icon -->
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="gambar/logo1.png" alt="Logo 1"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="gambar/logo2.png" alt="Logo 2"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="gambar/logo3.png" alt="Logo 3"></a>
+            </li>
+        </ul>
+    </div>
+    <!-- Class sebagai header untuk menu tambahan -->
+    <div class="header" id="myHeader">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        </nav>
+    </div>
+
+    <!-- Main Content -->	
+
+        <!-- Description Section -->
+        <div class="isi">
+            <img src="gambar/durian.webp" alt="Durian Lolong" style="width: 30%; height: auto;">
+            <h2>Durian Lolong</h2>
+            <p>Wilayah kabupaten Pekalongan secara geografis merupakan daerah tropis yang sangat kaya akan potensi tanaman buah. Hampir setiap pekarangan dan kebun ditanami berbagai jenis tanaman buah.</p>
+            <p>Durian merupakan salah satu komoditas buah unggulan Kabupaten Pekalongan. Berdasarkan data angka Kabupaten Pekalongan, produksi durian tahun 2017 mencapai 141.580 kuintal, dengan produktivitas 95,02 kg per pohon.</p>
+            <p>Sedangkan pada tahun 2018 triwulan II sebanyak 584 kuintal dengan produktivitas 13,68 kg per pohon.</p>
+            <p>Dalam rangka meningkatkan produksi dan mutu durian, Direktorat Jenderal Hortikultura memfasilitasi pengembangan durian lokal yang berdaya saing di wilayah sentra dengan model pengembangan kawasan.</p>
+            <p>Caranya dengan memfasilitasi penggunaan benih durian bermutu, diiringi oleh penanganan budidaya dan pascapanen yang baik dan benar.</p>
+            <p>Khusus di Pekalongan, salah satu durian yang menjadi komoditas unggulan adalah Durian Lolong. Durian yang mempunyai rasa khas seperti manis, legit, gurih, dan ada pahitnya.</p>
+        </div>
+    </div>
+
+    <!-- Scroll Script -->
+    <script type="text/javascript" src="assets/js/scroll.js"></script>
+</body>
+</html>
